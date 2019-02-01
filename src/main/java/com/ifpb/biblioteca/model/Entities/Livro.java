@@ -1,4 +1,4 @@
-package com.ifpb.biblioteca.model;
+package com.ifpb.biblioteca.model.Entities;
 
 public class Livro {
 

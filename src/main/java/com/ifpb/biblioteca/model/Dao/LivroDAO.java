@@ -1,9 +1,8 @@
-package com.ifpb.biblioteca.control;
+package com.ifpb.biblioteca.model.Dao;
+
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
-import com.ifpb.biblioteca.model.Livro;
-
-import java.util.List;
+import com.ifpb.biblioteca.model.Entities.Livro;
 
 public interface LivroDAO {
     boolean cadastrar(Livro livro) throws DadosInvalidosException;

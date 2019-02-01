@@ -1,7 +1,8 @@
-package com.ifpb.biblioteca.control;
+package com.ifpb.biblioteca.model.Dao;
+
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
-import com.ifpb.biblioteca.model.Cliente;
+import com.ifpb.biblioteca.model.Entities.Cliente;
 
 import java.util.List;
 

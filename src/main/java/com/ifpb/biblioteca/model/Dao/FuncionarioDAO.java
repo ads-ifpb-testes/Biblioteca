@@ -1,9 +1,7 @@
-package com.ifpb.biblioteca.control;
+package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
-import com.ifpb.biblioteca.model.Funcionario;
-
-import java.util.List;
+import com.ifpb.biblioteca.model.Entities.Funcionario;
 
 public interface FuncionarioDAO {
     boolean cadastrar(Funcionario funcionario) throws DadosInvalidosException;
