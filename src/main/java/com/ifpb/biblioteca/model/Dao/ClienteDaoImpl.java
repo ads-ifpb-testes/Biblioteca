@@ -1,12 +1,13 @@
-package com.ifpb.biblioteca.model.Entities;
+package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
+import com.ifpb.biblioteca.model.Entities.Cliente;
 
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
 
-public class GerenciarCliente implements ClienteDAO {
+public class ClienteDaoImpl implements ClienteDAO {
     private HashMap<String, Cliente> clientes = new HashMap<>();
     @Override
     public boolean cadastrar(String cpf, String nome, LocalDate nascimento, String email, String senha){

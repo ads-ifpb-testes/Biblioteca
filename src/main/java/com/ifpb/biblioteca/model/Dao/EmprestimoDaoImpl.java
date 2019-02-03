@@ -1,14 +1,17 @@
-package com.ifpb.biblioteca.model.Entities;
+package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.exceptions.LivroIndisponivelException;
 import com.ifpb.biblioteca.model.Dao.EmprestimoDAO;
+import com.ifpb.biblioteca.model.Entities.Cliente;
+import com.ifpb.biblioteca.model.Entities.Emprestimo;
+import com.ifpb.biblioteca.model.Entities.Livro;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class GerenciarEmprestimo implements EmprestimoDAO {
+public class EmprestimoDaoImpl implements EmprestimoDAO {
     private List<Emprestimo> emprestimos = new ArrayList<>();
     @Override
     public boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException {

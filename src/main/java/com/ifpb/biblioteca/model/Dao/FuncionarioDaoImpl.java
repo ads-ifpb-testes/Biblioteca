@@ -1,12 +1,13 @@
-package com.ifpb.biblioteca.model.Entities;
+package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
 import com.ifpb.biblioteca.model.Dao.FuncionarioDAO;
+import com.ifpb.biblioteca.model.Entities.Funcionario;
 
 import java.time.LocalDate;
 import java.util.HashMap;
 
-public class GerenciarFuncionario implements FuncionarioDAO {
+public class FuncionarioDaoImpl implements FuncionarioDAO {
     private HashMap<Integer, Funcionario> funcionarios = new HashMap<>();
     @Override
     public boolean cadastrar(int matricula, String nome, String senha, String cpf, LocalDate nascimento) throws DadosInvalidosException {

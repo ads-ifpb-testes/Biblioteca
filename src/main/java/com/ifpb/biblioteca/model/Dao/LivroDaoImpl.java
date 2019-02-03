@@ -1,13 +1,14 @@
-package com.ifpb.biblioteca.model.Entities;
+package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
 import com.ifpb.biblioteca.model.Dao.LivroDAO;
+import com.ifpb.biblioteca.model.Entities.Livro;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class GerenciarLivro implements LivroDAO {
+public class LivroDaoImpl implements LivroDAO {
     private List<Livro> livros = new ArrayList<>();
 
     @Override
