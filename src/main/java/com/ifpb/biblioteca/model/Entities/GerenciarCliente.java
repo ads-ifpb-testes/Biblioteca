@@ -2,29 +2,37 @@ package com.ifpb.biblioteca.model.Entities;
 
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
 
-import java.util.ArrayList;
+import java.time.LocalDate;
+import java.util.HashMap;
 import java.util.List;
 
 public class GerenciarCliente implements ClienteDAO {
-    private List<Cliente> clientes = new ArrayList<>();
+    private HashMap<String, Cliente> clientes = new HashMap<>();
     @Override
-    public boolean cadastrar(Cliente cliente){
-        return false;
+    public boolean cadastrar(String cpf, String nome, LocalDate nascimento, String email, String senha){
+     if(clientes.put(email,new Cliente(cpf,nome,nascimento,email,senha))==null){
+         return true;
+     } else return false;
     }
 
     @Override
-    public boolean excluir(String cpf) {
-        return false;
+    public boolean excluir(String email) {
+        if(clientes.remove(email)==null){
+            return true;
+        }else return false;
     }
 
     @Override
     public Cliente buscar(String cpf) {
-        return null;
+        Cliente clienteBuscado = clientes.get(cpf);
+        return clienteBuscado;
     }
 
     @Override
     public boolean atualizar(String cpf, Cliente cliente) {
-        return false;
+        if(clientes.put(cpf,cliente)==null){
+            return true;
+        }else return false;
     }
 
     @Override

@@ -4,19 +4,20 @@ package com.ifpb.biblioteca.model.Dao;
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
 import com.ifpb.biblioteca.model.Entities.Cliente;
 
+import java.time.LocalDate;
 import java.util.List;
 
 public interface ClienteDAO {
 
-    boolean cadastrar(Cliente cliente) throws DadosInvalidosException;
+    boolean cadastrar(String cpf, String nome, LocalDate nascimento, String email, String senha) throws DadosInvalidosException;
 
-    boolean excluir(String cpf);
+    boolean excluir(String email);
 
-    Cliente buscar(String cpf);
+    Cliente buscar(String email);
 
-    boolean atualizar(String cpf, Cliente cliente);
+    boolean atualizar(String email, Cliente cliente);
 
-    List<String> buscarPendencias(String cpf);
+    List<String> buscarPendencias(String email);
 
 
 

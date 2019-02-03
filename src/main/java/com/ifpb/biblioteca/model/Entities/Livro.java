@@ -2,24 +2,24 @@ package com.ifpb.biblioteca.model.Entities;
 
 public class Livro {
 
-    private String nome;
+    private String titulo;
     private int codigo;
     private String editora;
     private String autor;
 
-    public Livro(String nome, int codigo, String editora, String autor) {
-        this.nome = nome;
+    public Livro(String titulo, int codigo, String editora, String autor) {
+        this.titulo = titulo;
         this.codigo = codigo;
         this.editora = editora;
         this.autor = autor;
     }
 
-    public String getNome() {
-        return nome;
+    public String getTitulo() {
+        return titulo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
     }
 
     public int getCodigo() {
@@ -49,7 +49,7 @@ public class Livro {
     @Override
     public String toString() {
         return "Livro{" +
-                "nome='" + nome + '\'' +
+                "titulo='" + titulo + '\'' +
                 ", codigo=" + codigo +
                 ", editora='" + editora + '\'' +
                 ", autor='" + autor + '\'' +
