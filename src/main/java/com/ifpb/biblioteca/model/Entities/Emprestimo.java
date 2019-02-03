@@ -22,7 +22,7 @@ public class Emprestimo {
         this.livro = livro;
         this.cliente = cliente;
         this.dataEmprestimo = LocalDate.now();
-        this.dataFinalDevolucao = this.dataEmprestimo.plusDays(7);
+        this.dataFinalDevolucao = this.dataEmprestimo.plusDays(10);
     }
 
     public static int getCodigo() {

@@ -11,6 +11,13 @@ public class GerenciarEmprestimo implements EmprestimoDAO {
     private List<Emprestimo> emprestimos = new ArrayList<>();
     @Override
     public boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException {
-        return emprestimos.add(new Emprestimo(livro, cliente));
+       Emprestimo emprestimo = new Emprestimo(livro, cliente);
+       if(livro.isDisponivel()){
+           emprestimos.add(emprestimo);
+           livro.setDisponivel(false);
+           System.out.println("A data para devolucao eh "+ emprestimo.getDataFinalDevolucao());
+           return true;
+       }
+       else return false;
     }
 }

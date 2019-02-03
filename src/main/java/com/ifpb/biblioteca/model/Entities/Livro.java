@@ -7,12 +7,21 @@ public class Livro {
     private String editora;
     private String autor;
 
+
+    private boolean disponivel;
+
     public Livro(String titulo, int codigo, String editora, String autor) {
         this.titulo = titulo;
         this.codigo = codigo;
         this.editora = editora;
         this.autor = autor;
+        this.disponivel = true;
+
     }
+
+    public boolean isDisponivel() {return disponivel;}
+
+    public void setDisponivel(boolean disponivel) {this.disponivel = disponivel;}
 
     public String getTitulo() {
         return titulo;
