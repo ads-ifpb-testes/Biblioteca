@@ -12,7 +12,12 @@ import java.util.List;
 import java.util.Objects;
 
 public class EmprestimoDaoImpl implements EmprestimoDAO {
-    private List<Emprestimo> emprestimos = new ArrayList<>();
+    private List<Emprestimo> emprestimos;
+
+    public EmprestimoDaoImpl(List<Emprestimo> emprestimos) {
+        this.emprestimos = new ArrayList<>();
+    }
+
     @Override
     public boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException {
        Emprestimo emprestimo = new Emprestimo(livro, cliente);
@@ -31,5 +36,10 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
                 return emprestimo;
             }
         }return null;
+    }
+
+    @Override
+    public boolean devolver(Emprestimo emprestimo) {
+        return false;
     }
 }

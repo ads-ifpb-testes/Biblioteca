@@ -6,9 +6,15 @@ import com.ifpb.biblioteca.model.Entities.Cliente;
 import java.time.LocalDate;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class ClienteDaoImpl implements ClienteDAO {
-    private HashMap<String, Cliente> clientes = new HashMap<>();
+    private Map<String, Cliente> clientes;
+
+    public ClienteDaoImpl(Map<String, Cliente> clientes) {
+        this.clientes = new HashMap<>();
+    }
+
     @Override
     public boolean cadastrar(String cpf, String nome, LocalDate nascimento, String email, String senha){
      if(clientes.put(email,new Cliente(cpf,nome,nascimento,email,senha))==null){

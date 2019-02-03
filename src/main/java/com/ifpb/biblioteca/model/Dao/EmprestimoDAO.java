@@ -7,9 +7,12 @@ import com.ifpb.biblioteca.model.Entities.Emprestimo;
 import com.ifpb.biblioteca.model.Entities.Livro;
 
 public interface EmprestimoDAO {
+
     boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException;
 
     Emprestimo consultar(int id);
+
+    boolean devolver(Emprestimo emprestimo);
 
 
 }
