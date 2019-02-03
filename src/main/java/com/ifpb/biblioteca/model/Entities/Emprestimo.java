@@ -7,6 +7,7 @@ public class Emprestimo {
     private static int codigo;
 
     private int id;
+    private static int contador;
     private Livro livro;
     private Cliente cliente;
     private LocalDate dataEmprestimo;
@@ -16,12 +17,12 @@ public class Emprestimo {
 
     }
 
-    public Emprestimo(int id, Livro livro, Cliente cliente, LocalDate dataEmprestimo, LocalDate dataFinalDevolucao) {
-        this.id = id;
+    public Emprestimo(Livro livro, Cliente cliente) {
+        this.id = ++contador;
         this.livro = livro;
         this.cliente = cliente;
-        this.dataEmprestimo = dataEmprestimo;
-        this.dataFinalDevolucao = dataFinalDevolucao;
+        this.dataEmprestimo = LocalDate.now();
+        this.dataFinalDevolucao = this.dataEmprestimo.plusDays(7);
     }
 
     public static int getCodigo() {
