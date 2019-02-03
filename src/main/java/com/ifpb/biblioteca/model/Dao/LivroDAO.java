@@ -14,4 +14,6 @@ public interface LivroDAO {
     public ArrayList<Livro> buscarPorTitulo(String titulo);
 
     boolean atualizar(int codigo, Livro livro);
+
+    Livro buscar (int codigo);
 }

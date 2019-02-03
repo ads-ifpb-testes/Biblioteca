@@ -31,8 +31,8 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public int getCodigo() {
-        return codigo;
+    public int getCodigo(int codigo) {
+        return this.codigo;
     }
 
     public void setCodigo(int codigo) {

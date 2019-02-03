@@ -6,6 +6,7 @@ import com.ifpb.biblioteca.model.Dao.EmprestimoDAO;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class GerenciarEmprestimo implements EmprestimoDAO {
     private List<Emprestimo> emprestimos = new ArrayList<>();
@@ -19,5 +20,13 @@ public class GerenciarEmprestimo implements EmprestimoDAO {
            return true;
        }
        else return false;
+    }
+    @Override
+    public Emprestimo consultar(int id){
+        for (Emprestimo emprestimo:emprestimos){
+            if(Objects.equals(id,emprestimo.getId())){
+                return emprestimo;
+            }
+        }return null;
     }
 }
