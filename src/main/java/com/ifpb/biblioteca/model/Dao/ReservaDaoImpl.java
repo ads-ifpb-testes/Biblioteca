@@ -7,6 +7,7 @@ import com.ifpb.biblioteca.model.Entities.Reserva;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ReservaDaoImpl implements ReservaDAO {
 
@@ -20,6 +21,11 @@ public class ReservaDaoImpl implements ReservaDAO {
     public boolean reservarLivro(Livro livro, Cliente cliente) {
         if(livro!=null && cliente !=null){
             Reserva reserva = new Reserva(livro,cliente, LocalDate.now());
+            for(Reserva r:reservas){
+                if(Objects.equals(reserva.getCliente(),r.getCliente()) && Objects.equals(reserva.getLivro(),r.getLivro())){
+                    return false;
+                }
+            }
             return reservas.add(reserva);
         }
         return false;

@@ -1,0 +1,55 @@
+package test;
+
+import com.ifpb.biblioteca.model.Dao.ReservaDAO;
+import com.ifpb.biblioteca.model.Dao.ReservaDaoImpl;
+import com.ifpb.biblioteca.model.Entities.Cliente;
+import com.ifpb.biblioteca.model.Entities.Livro;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.MockitoAnnotations;
+
+import java.time.LocalDate;
+
+public class ReservaTest {
+
+    private ReservaDAO reservaDAO;
+    private Livro livro;
+    private Livro livro2;
+    private Cliente cliente;
+    private Cliente cliente2;
+
+
+
+    @Before
+    public void iniciarTestes(){
+        MockitoAnnotations.initMocks(this);
+        reservaDAO = new ReservaDaoImpl();
+        livro = new Livro("Harry Potter",11,"Intriseca","JKR");
+        cliente = new Cliente("333.333.333-03", "Mailson", LocalDate.now(), "mailsuu@gmail.com" , "456123");
+
+        //------------------------------------------------------------------
+
+        livro2 = new Livro("O Hobbit",41,"AGSYDgAYSD","J.R.R.Tolkien");
+        cliente2 = new Cliente("444.444.444-04", "Lucas", LocalDate.now(), "luquinhas@gmail.com" , "456123");
+
+        reservaDAO.reservarLivro(livro2,cliente2);
+    }
+
+    @Test
+    public void realizarReserva(){
+        Assert.assertTrue(reservaDAO.reservarLivro(livro,cliente));
+    }
+
+    @Test
+    public void realizarReservaSemLivro(){
+        Assert.assertFalse(reservaDAO.reservarLivro(null,cliente));
+    }
+
+    @Test
+    public void realizarReservaRepetida(){
+        Assert.assertFalse(reservaDAO.reservarLivro(livro2,cliente2));
+    }
+
+
+}

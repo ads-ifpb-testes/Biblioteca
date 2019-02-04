@@ -1,3 +1,5 @@
+package test;
+
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
 import com.ifpb.biblioteca.model.Dao.FuncionarioDAO;
 import com.ifpb.biblioteca.model.Dao.FuncionarioDaoImpl;
@@ -14,7 +16,6 @@ public class FuncionarioTest {
 
     @Before
     public void iniciarTestes () throws DadosInvalidosException {
-        MockitoAnnotations.initMocks(this);
         funcionarioDAO = new FuncionarioDaoImpl();
         funcionarioDAO.cadastrar(2019001,"Mel Gibson","123","666.666.666.06", LocalDate.now());
     }

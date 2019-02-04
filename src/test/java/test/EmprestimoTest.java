@@ -1,3 +1,5 @@
+package test;
+
 import com.ifpb.biblioteca.exceptions.LivroIndisponivelException;
 
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
@@ -39,7 +41,7 @@ public class EmprestimoTest {
     @Before
     public void iniciarTestes(){
         MockitoAnnotations.initMocks(this);
-        cliente = new Cliente("222.222.222-02","Antônio",
+        cliente = new Cliente("222.222.222-02","Antõnio",
                 LocalDate.now(),email,"321123");
 
         //-------------------------------------------------------------
