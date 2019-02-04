@@ -13,7 +13,7 @@ import java.util.Map;
 public class ClienteDaoImpl implements ClienteDAO {
     private Map<String, Cliente> clientes;
 
-    public ClienteDaoImpl(Map<String, Cliente> clientes) {
+    public ClienteDaoImpl() {
         this.clientes = new HashMap<>();
     }
 

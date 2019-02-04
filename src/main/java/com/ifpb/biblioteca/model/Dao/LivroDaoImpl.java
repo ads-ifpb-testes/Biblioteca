@@ -11,7 +11,7 @@ import java.util.Objects;
 public class LivroDaoImpl implements LivroDAO {
     private List<Livro> livros;
 
-    public LivroDaoImpl(List<Livro> livros) {
+    public LivroDaoImpl() {
         this.livros = new ArrayList<>();
     }
 

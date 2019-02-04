@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class Reserva {
 
+    private static int codigo;
     private int id;
     private Livro livro;
     private Cliente cliente;
@@ -12,8 +13,8 @@ public class Reserva {
     public Reserva() {
     }
 
-    public Reserva(int id, Livro livro, Cliente cliente, LocalDate dataDeReserva) {
-        this.id = id;
+    public Reserva(Livro livro, Cliente cliente, LocalDate dataDeReserva) {
+        this.id = ++codigo;
         this.livro = livro;
         this.cliente = cliente;
         this.dataDeReserva = dataDeReserva;

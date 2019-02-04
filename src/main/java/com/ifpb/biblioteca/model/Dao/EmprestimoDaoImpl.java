@@ -14,7 +14,7 @@ import java.util.Objects;
 public class EmprestimoDaoImpl implements EmprestimoDAO {
     private List<Emprestimo> emprestimos;
 
-    public EmprestimoDaoImpl(List<Emprestimo> emprestimos) {
+    public EmprestimoDaoImpl() {
         this.emprestimos = new ArrayList<>();
     }
 
@@ -40,6 +40,14 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
 
     @Override
     public boolean devolver(Emprestimo emprestimo) {
+        if(emprestimo!=null){
+            for(Emprestimo e:emprestimos){
+                if(e.getId()==emprestimo.getId()){
+                    emprestimos.remove(e);
+                    return true;
+                }
+            }
+        }
         return false;
     }
 

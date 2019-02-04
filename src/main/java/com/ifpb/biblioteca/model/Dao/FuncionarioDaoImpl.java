@@ -8,7 +8,12 @@ import java.time.LocalDate;
 import java.util.HashMap;
 
 public class FuncionarioDaoImpl implements FuncionarioDAO {
-    private HashMap<Integer, Funcionario> funcionarios = new HashMap<>();
+    private HashMap<Integer, Funcionario> funcionarios ;
+
+    public FuncionarioDaoImpl() {
+        this.funcionarios = new HashMap<>();
+    }
+
     @Override
     public boolean cadastrar(int matricula, String nome, String senha, String cpf, LocalDate nascimento) throws DadosInvalidosException {
         if(funcionarios.put(matricula,new Funcionario(matricula,nome,senha,cpf,nascimento))==null){
