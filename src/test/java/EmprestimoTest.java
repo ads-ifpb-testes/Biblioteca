@@ -1,4 +1,5 @@
 import com.ifpb.biblioteca.exceptions.LivroIndisponivelException;
+
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
 import com.ifpb.biblioteca.model.Dao.EmprestimoDAO;
 import com.ifpb.biblioteca.model.Dao.EmprestimoDaoImpl;
@@ -25,6 +26,8 @@ public class EmprestimoTest {
     private ClienteDAO clienteDao;
     @Mock
     private LivroDAO livroDAO;
+    
+    
     private List<Livro> livros;
     private List<Emprestimo> emprestimos;
     private Map<String, Cliente> clientes;
@@ -76,7 +79,7 @@ public class EmprestimoTest {
 
     @Test
     public void consultarEmprestimoErrado(){
-        Assert.assertNull(emprestimoDAO.consultar(3));
+        Assert.assertNull(emprestimoDAO.consultar(10));
     }
 
     @Test

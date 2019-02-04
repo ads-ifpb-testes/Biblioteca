@@ -39,7 +39,7 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
     @Override
     public Emprestimo consultar(int id){
         for (Emprestimo emprestimo:emprestimos){
-            if(Objects.equals(id,emprestimo.getId())){
+            if(id == emprestimo.getId()){
                 return emprestimo;
             }
         }return null;
