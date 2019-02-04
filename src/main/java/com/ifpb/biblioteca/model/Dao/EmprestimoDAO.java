@@ -10,13 +10,15 @@ import java.util.List;
 
 public interface EmprestimoDAO {
 
-    boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException;
+    boolean emprestar(Livro livro, String email,ClienteDAO dao) throws LivroIndisponivelException;
 
     Emprestimo consultar(int id);
 
     boolean devolver(Emprestimo emprestimo);
 
     List<Emprestimo> listarEmprestimos();
+
+    void setEmprestimos(List<Emprestimo> emprestimos);
 
 
 }

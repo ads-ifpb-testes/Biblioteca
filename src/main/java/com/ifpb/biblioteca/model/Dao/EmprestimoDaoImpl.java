@@ -18,17 +18,24 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
         this.emprestimos = new ArrayList<>();
     }
 
+
+
     @Override
-    public boolean emprestar(Livro livro, Cliente cliente) throws LivroIndisponivelException {
-       Emprestimo emprestimo = new Emprestimo(livro, cliente);
-       if(livro.isDisponivel()){
-           emprestimos.add(emprestimo);
-           livro.setDisponivel(false);
-           System.out.println("A data para devolucao eh "+ emprestimo.getDataFinalDevolucao());
-           return true;
-       }
-       else return false;
+    public boolean emprestar(Livro livro, String email, ClienteDAO dao) throws LivroIndisponivelException {
+        if(livro!=null && email!=""){
+            if(livro.isDisponivel()){
+                if(dao.buscar(email)!=null){
+                    Emprestimo emprestimo = new Emprestimo(livro,dao.buscar(email));
+                    livro.setDisponivel(false);
+                    System.out.println("A data para devolucao eh "+ emprestimo.getDataFinalDevolucao());
+                    return true;
+                }
+            }
+            else throw new LivroIndisponivelException();
+        }
+        return false;
     }
+
     @Override
     public Emprestimo consultar(int id){
         for (Emprestimo emprestimo:emprestimos){
@@ -54,5 +61,10 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
     @Override
     public List<Emprestimo> listarEmprestimos() {
         return this.emprestimos;
+    }
+
+    @Override
+    public void setEmprestimos(List<Emprestimo> emprestimos) {
+        this.emprestimos = emprestimos;
     }
 }
