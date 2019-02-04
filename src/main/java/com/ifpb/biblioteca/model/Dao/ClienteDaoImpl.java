@@ -2,8 +2,10 @@ package com.ifpb.biblioteca.model.Dao;
 
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
 import com.ifpb.biblioteca.model.Entities.Cliente;
+import com.ifpb.biblioteca.model.Entities.Emprestimo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,7 +45,19 @@ public class ClienteDaoImpl implements ClienteDAO {
     }
 
     @Override
-    public List<String> buscarPendencias(String cpf) {
-        return null;
+    public List<String> buscarPendencias(String cpf,EmprestimoDAO emprestimoDAO) {
+        List<Emprestimo> emprestimos= emprestimoDAO.listarEmprestimos();
+        if(emprestimos.equals(new ArrayList<>())){
+            return new ArrayList<String>();
+        }else{
+            List<String> pendencias = new ArrayList<>();
+            for(Emprestimo emprestimo:emprestimos){
+                if(emprestimo.getCliente().getCpf().equals(cpf)){
+                    pendencias.add("Pendencias realionada ao livro "+emprestimo.getLivro().getTitulo()+
+                            " de código "+emprestimo.getLivro().getCodigo());
+                }
+            }
+            return pendencias;
+        }
     }
 }

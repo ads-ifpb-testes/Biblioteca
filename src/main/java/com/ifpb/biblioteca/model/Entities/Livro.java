@@ -31,7 +31,7 @@ public class Livro {
         this.titulo = titulo;
     }
 
-    public int getCodigo(int codigo) {
+    public int getCodigo() {
         return this.codigo;
     }
 

@@ -17,7 +17,7 @@ public interface ClienteDAO {
 
     boolean atualizar(String email, Cliente cliente);
 
-    List<String> buscarPendencias(String email);
+    List<String> buscarPendencias(String email,EmprestimoDAO emprestimoDAO);
 
 
 

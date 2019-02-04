@@ -42,4 +42,9 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
     public boolean devolver(Emprestimo emprestimo) {
         return false;
     }
+
+    @Override
+    public List<Emprestimo> listarEmprestimos() {
+        return this.emprestimos;
+    }
 }

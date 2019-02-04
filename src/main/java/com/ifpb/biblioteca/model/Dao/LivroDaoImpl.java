@@ -9,7 +9,11 @@ import java.util.List;
 import java.util.Objects;
 
 public class LivroDaoImpl implements LivroDAO {
-    private List<Livro> livros = new ArrayList<>();
+    private List<Livro> livros;
+
+    public LivroDaoImpl(List<Livro> livros) {
+        this.livros = new ArrayList<>();
+    }
 
     @Override
     public boolean cadastrar(String titulo, int codigo, String editora, String autor) throws DadosInvalidosException {
@@ -36,7 +40,7 @@ public class LivroDaoImpl implements LivroDAO {
     @Override
     public Livro buscar(int codigo) {
         for (Livro livro: livros){
-            if(Objects.equals(codigo,livro.getCodigo(codigo))){
+            if(codigo == livro.getCodigo()){
                 return livro;
             }
             }return null;
