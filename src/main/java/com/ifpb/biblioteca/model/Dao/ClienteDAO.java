@@ -2,6 +2,7 @@ package com.ifpb.biblioteca.model.Dao;
 
 
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
+import com.ifpb.biblioteca.exceptions.UsuarioPendenteException;
 import com.ifpb.biblioteca.model.Entities.Cliente;
 
 import java.time.LocalDate;
@@ -11,7 +12,7 @@ public interface ClienteDAO {
 
     boolean cadastrar(String cpf, String nome, LocalDate nascimento, String email, String senha) throws DadosInvalidosException;
 
-    boolean excluir(String email);
+    boolean excluir(String email) throws UsuarioPendenteException;
 
     Cliente buscar(String email);
 

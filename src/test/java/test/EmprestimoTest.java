@@ -2,12 +2,14 @@ package test;
 
 import com.ifpb.biblioteca.exceptions.LivroIndisponivelException;
 
+import com.ifpb.biblioteca.exceptions.LivroInvalidoException;
 import com.ifpb.biblioteca.model.Dao.ClienteDAO;
 import com.ifpb.biblioteca.model.Dao.EmprestimoDAO;
 import com.ifpb.biblioteca.model.Dao.EmprestimoDaoImpl;
 import com.ifpb.biblioteca.model.Dao.LivroDAO;
 import com.ifpb.biblioteca.model.Entities.Cliente;
 import com.ifpb.biblioteca.model.Entities.Emprestimo;
+import com.ifpb.biblioteca.model.Enum.LivroEnum;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -55,8 +57,8 @@ public class EmprestimoTest {
         //--------------------------------------------------------------
 
         livros = new ArrayList<>();
-        livros.add(new Livro("Harry Potter",1,"Roco","J.K.Rolling"));
-        livros.add(new Livro("Senhor dos Aneis",2,"Martins Fontes","J.R.R.Tolkien"));
+        livros.add(new Livro("Harry Potter",1,"Roco","J.K.Rolling", LivroEnum.EMPRESTIMO));
+        livros.add(new Livro("Senhor dos Aneis",2,"Martins Fontes","J.R.R.Tolkien", LivroEnum.EMPRESTIMO));
 
         //---------------------------------------------------------------
 
@@ -73,7 +75,7 @@ public class EmprestimoTest {
         Mockito.when(clienteDao.buscar(email)).thenReturn(cliente);
         try {
             Assert.assertFalse(emprestimoDAO.emprestar(null,email,clienteDao));
-        } catch (LivroIndisponivelException e) {
+        } catch (LivroIndisponivelException | LivroInvalidoException e) {
             e.printStackTrace();
         }
 

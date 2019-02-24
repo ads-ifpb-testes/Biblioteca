@@ -1,21 +1,23 @@
 package com.ifpb.biblioteca.model.Entities;
 
+import com.ifpb.biblioteca.model.Enum.LivroEnum;
+
 public class Livro {
 
     private String titulo;
     private int codigo;
     private String editora;
     private String autor;
-
-
     private boolean disponivel;
+    private LivroEnum tipo;
 
-    public Livro(String titulo, int codigo, String editora, String autor) {
+    public Livro(String titulo, int codigo, String editora, String autor, LivroEnum tipo) {
         this.titulo = titulo;
         this.codigo = codigo;
         this.editora = editora;
         this.autor = autor;
         this.disponivel = true;
+        this.tipo = tipo;
 
     }
 
@@ -63,5 +65,13 @@ public class Livro {
                 ", editora='" + editora + '\'' +
                 ", autor='" + autor + '\'' +
                 '}';
+    }
+
+    public LivroEnum getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(LivroEnum tipo) {
+        this.tipo = tipo;
     }
 }

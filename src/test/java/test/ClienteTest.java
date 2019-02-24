@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.logging.Logger;
 
+import com.ifpb.biblioteca.exceptions.UsuarioPendenteException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -55,6 +56,7 @@ public class ClienteTest {
 		Mockito.when(emprestimoDao.listarEmprestimos()).thenReturn(new ArrayList<Emprestimo>());
 		Assert.assertEquals(new ArrayList<String>(), clienteDao.buscarPendencias("mailsuu@gmail.com",emprestimoDao));
 	}
+
 	
 	
 }
