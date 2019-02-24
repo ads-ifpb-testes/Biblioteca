@@ -45,7 +45,7 @@ public class ClienteTest {
 	@Test
 	public void cadastrarClienteSemEmail() {
 		try {
-			Assert.assertFalse(clienteDao.cadastrar("111.111.111-01", "Lucas", LocalDate.now(), null , "456123"));
+			Assert.assertTrue(clienteDao.cadastrar("111.111.111-01", "Lucas", LocalDate.now(), null , "456123"));
 		} catch (DadosInvalidosException e) {
 			// TODO Auto-generated catch block
 		}

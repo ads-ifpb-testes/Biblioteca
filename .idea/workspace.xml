@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="d2b118bb-29f2-4325-82cd-455fa35326d9" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="982e84ca-3e9a-4c08-bba5-86b2dea6dcc2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca-Testes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+    </list>
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +26,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -29,6 +43,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="341">
               <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,25 +56,45 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ClienteDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+              <folding>
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+              </folding>
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -71,21 +111,35 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/LivroIndisponivelException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="72" selection-start-line="2" selection-start-column="41" selection-end-line="3" selection-end-column="72" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/LivroTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -94,6 +148,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -101,6 +157,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ReservaDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/ReservaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/Testes.java" />
@@ -114,14 +171,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ClienteDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java" />
+=======
+        <option value="$PROJECT_DIR$/src/test/java/test/LivroTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-95" />
-    <option name="y" value="141" />
-    <option name="width" value="1320" />
-    <option name="height" value="720" />
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -236,18 +298,25 @@
           <select />
         </subPane>
       </pane>
+=======
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551037534671" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551022137891" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Testes">
+  <component name="RunManager">
     <configuration name="Testes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -277,6 +346,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
       <module name="test" />
       <option name="PACKAGE_NAME" value="test" />
@@ -292,6 +362,8 @@
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.Testes" />
     </list>
+=======
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Testes" />
@@ -303,35 +375,37 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d2b118bb-29f2-4325-82cd-455fa35326d9" name="Default Changelist" comment="" />
-      <created>1549299190604</created>
+      <changelist id="982e84ca-3e9a-4c08-bba5-86b2dea6dcc2" name="Default Changelist" comment="" />
+      <created>1551021602256</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1549299190604</updated>
       <workItem from="1549299192864" duration="3152000" />
       <workItem from="1551021582709" duration="533000" />
       <workItem from="1551025973630" duration="456000" />
       <workItem from="1551027916583" duration="7801000" />
+=======
+      <updated>1551021602256</updated>
+      <workItem from="1551021612274" duration="516000" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LivroTest - 2019.02.04 at 13h 54m 38s.xml">
-      <configuration name="LivroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LivroTest - 2019.02.04 at 14h 37m 20s.xml">
-      <configuration name="LivroTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.04 at 14h 39m 08s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Unnamed - 2019.02.04 at 14h 40m 13s.xml">
-      <configuration name="Unnamed" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.04 at 15h 13m 23s.xml">
+    <history-entry file="Testes - 2019.02.24 at 12h 22m 44s.xml">
       <configuration name="Testes" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Testes - 2019.02.04 at 15h 14m 08s.xml">
+    <history-entry file="Testes - 2019.02.24 at 12h 24m 52s.xml">
+      <configuration name="Testes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes - 2019.02.24 at 12h 26m 31s.xml">
+      <configuration name="Testes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes - 2019.02.24 at 12h 27m 33s.xml">
+      <configuration name="Testes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Testes - 2019.02.24 at 12h 28m 12s.xml">
       <configuration name="Testes" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Testes - 2019.02.24 at 12h 26m 43s.xml">
@@ -342,6 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="11942000" />
   </component>
   <component name="TodoView">
@@ -352,10 +427,14 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="516000" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="740" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -376,6 +455,34 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+=======
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24621212" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3294702" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294702" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,11 +545,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -457,11 +565,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="72" selection-start-line="2" selection-start-column="41" selection-end-line="3" selection-end-column="72" />
+=======
+    <entry file="file://$PROJECT_DIR$/Biblioteca-Testes.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="145">
           <caret line="40" column="46" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="46" />
           <folding>
@@ -551,24 +666,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="135">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/LivroTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+>>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
