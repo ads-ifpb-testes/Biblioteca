@@ -41,7 +41,7 @@ public class FuncionarioTest {
     @Test
     public void cadastrarSemCPF(){
         try {
-            Assert.assertTrue(funcionarioDAO.cadastrar(2019004,"Goku","kakaroto",null,LocalDate.now()));
+            Assert.assertNotNull(funcionarioDAO.cadastrar(2019004,"Goku","kakaroto",null,LocalDate.now()));
         } catch (DadosInvalidosException e) {
             // TODO Auto-generated catch block
         }

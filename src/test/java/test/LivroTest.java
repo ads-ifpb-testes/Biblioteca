@@ -31,7 +31,7 @@ public class LivroTest {
     @Test
     public void cadastrarSemTitulo(){
         try {
-            Assert.assertTrue(livroDAO.cadastrar(null,05,"Nova","Martin"));
+            Assert.assertNotNull(livroDAO.cadastrar(null,05,"Nova","Martin"));
         } catch (DadosInvalidosException e) {
             // TODO Auto-generated catch block
         }

@@ -14,6 +14,6 @@ import org.junit.runners.Suite.SuiteClasses;
         ReservaTest.class
 })
 
-public class Testes {
+public class SuiteTestesUni {
 
 }

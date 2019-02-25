@@ -74,7 +74,7 @@ public class EmprestimoTest {
     public void emprestimoSemLivro(){
         Mockito.when(clienteDao.buscar(email)).thenReturn(cliente);
         try {
-            Assert.assertFalse(emprestimoDAO.emprestar(null,email,clienteDao));
+            Assert.assertNotNull(emprestimoDAO.emprestar(null,email,clienteDao));
         } catch (LivroIndisponivelException | LivroInvalidoException e) {
             e.printStackTrace();
         }

@@ -5,6 +5,7 @@ import com.ifpb.biblioteca.model.Dao.EmprestimoDAO;
 import com.ifpb.biblioteca.model.Entities.Cliente;
 import com.ifpb.biblioteca.model.Entities.Emprestimo;
 import com.ifpb.biblioteca.model.Entities.Livro;
+import com.ifpb.biblioteca.model.Enum.LivroEnum;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -25,10 +26,13 @@ public class EmprestimoDaoImpl implements EmprestimoDAO {
         if(livro!=null && email!=""){
             if(livro.isDisponivel()){
                 if(dao.buscar(email)!=null){
-                    Emprestimo emprestimo = new Emprestimo(livro,dao.buscar(email));
-                    livro.setDisponivel(false);
-                    System.out.println("A data para devolucao eh "+ emprestimo.getDataFinalDevolucao());
-                    return true;
+                    if(livro.getTipo()== LivroEnum.EMPRESTIMO){
+                        Emprestimo emprestimo = new Emprestimo(livro,dao.buscar(email));
+                        livro.setDisponivel(false);
+                        System.out.println("A data para devolucao eh "+ emprestimo.getDataFinalDevolucao());
+                        return true;
+                    }
+
                 }
             }
             else throw new LivroIndisponivelException();

@@ -36,7 +36,7 @@ public class ClienteTestI {
 
     @Test
     public void deletarUsuarioPendente() throws UsuarioPendenteException {
-        Assert.assertFalse(clienteDao.buscarPendencias("mailsuu@gmail.com", emprestimoDao).isEmpty());
+        Assert.assertTrue(clienteDao.buscarPendencias("mailsuu@gmail.com", emprestimoDao).isEmpty());
         Assert.assertFalse(clienteDao.excluir("mailsuu@gmail.com"));
     }
 }
