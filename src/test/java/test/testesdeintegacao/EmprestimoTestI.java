@@ -38,11 +38,14 @@ public class EmprestimoTestI {
     private Cliente cliente =  new Cliente("222.222.222-02", "Antonio",
             LocalDate.now(), email, "321123");
     private Livro livro = new Livro("Harry Potter", 3, "Roco", "J.K.Rolling", LivroEnum.CONSULTA);
+    private Livro livro2 = new Livro("Angeologia",7,"Fonte editorial","Marcelo",LivroEnum.EMPRESTIMO);
 
 
     @Before
-    public void iniciarTestes() {
+    public void iniciarTestes() throws LivroInvalidoException, LivroIndisponivelException {
         MockitoAnnotations.initMocks(this);
+        emprestimoDAO.emprestar(livro2,email,clienteDao);
+
 
     }
 
@@ -55,5 +58,15 @@ public class EmprestimoTestI {
             e.printStackTrace();
         }
 
+    }
+    @Test
+    public void emprestarLivroIndisponivel(){
+        try {
+            Assert.assertFalse(emprestimoDAO.emprestar(livro2,"mailsuu@gmail.com",clienteDao));
+        } catch (LivroIndisponivelException e) {
+            e.printStackTrace();
+        } catch (LivroInvalidoException e) {
+            e.printStackTrace();
+        }
     }
 }

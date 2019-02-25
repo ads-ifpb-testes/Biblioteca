@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c00e8e58-6a4e-4543-979c-f6eaee6fbce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/SuiteTestesInt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/test/test/ClienteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/ClienteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/test/test/EmprestimoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/EmprestimoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/test/test/FuncionarioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/FuncionarioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/test/test/LivroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/LivroTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/test/test/ReservaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/ReservaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ReservaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ReservaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/Testes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/SuiteTestesUni.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/Testes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/testesdeintegacao/EmprestimoTestI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/test/test/testesdeintegacao/EmprestimoTestI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/SuiteTestesUni.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -42,13 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/SuiteTestesInt.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -56,8 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+            <state relative-caret-position="345">
+              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -87,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/test/java/test/Testes.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/SuiteTestesInt.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java" />
       </list>
     </option>
   </component>
@@ -176,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551113536469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551114505930" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -241,17 +236,11 @@
       <option name="presentableId" value="Default" />
       <updated>1551107552078</updated>
       <workItem from="1551107554246" duration="226000" />
-      <workItem from="1551111491766" duration="2057000" />
+      <workItem from="1551111491766" duration="2942000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Testes - 2019.02.25 at 12h 15m 54s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.25 at 13h 21m 30s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Testes - 2019.02.25 at 13h 37m 28s.xml">
       <configuration name="Testes" configurationId="JUnit" />
     </history-entry>
@@ -273,15 +262,24 @@
     <history-entry file="SuiteTestesInt - 2019.02.25 at 13h 52m 19s.xml">
       <configuration name="SuiteTestesInt" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SuiteTestesInt - 2019.02.25 at 14h 02m 15s.xml">
+      <configuration name="SuiteTestesInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteTestesInt - 2019.02.25 at 14h 02m 31s.xml">
+      <configuration name="SuiteTestesInt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SuiteTestesInt - 2019.02.25 at 14h 08m 29s.xml">
+      <configuration name="SuiteTestesInt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2283000" />
+    <option name="totallyTimeSpent" value="3168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,13 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -382,20 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -410,17 +387,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/SuiteTestesInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -431,6 +401,34 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
         </state>
       </provider>
     </entry>
