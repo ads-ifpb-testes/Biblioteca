@@ -3,6 +3,7 @@ package com.ifpb.biblioteca.model.Dao;
 import com.ifpb.biblioteca.exceptions.DadosInvalidosException;
 import com.ifpb.biblioteca.model.Dao.LivroDAO;
 import com.ifpb.biblioteca.model.Entities.Livro;
+import com.ifpb.biblioteca.model.Enum.LivroEnum;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +18,7 @@ public class LivroDaoImpl implements LivroDAO {
 
     @Override
     public boolean cadastrar(String titulo, int codigo, String editora, String autor) throws DadosInvalidosException {
-        return livros.add(new Livro(titulo,codigo,editora,autor));
+        return livros.add(new Livro(titulo,codigo,editora,autor, LivroEnum.EMPRESTIMO));
     }
     public boolean cadastrar(Livro livro){
         return livros.add(livro);

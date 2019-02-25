@@ -1,20 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d2b118bb-29f2-4325-82cd-455fa35326d9" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="982e84ca-3e9a-4c08-bba5-86b2dea6dcc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+    <list default="true" id="c00e8e58-6a4e-4543-979c-f6eaee6fbce9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biblioteca-Testes.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LivroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/exceptions/DadosInvalidosException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/exceptions/LivroIndisponivelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/ClienteDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/ClienteDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/EmprestimoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/EmprestimoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/FuncionarioDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/FuncionarioDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/LivroDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/ReservaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Dao/ReservaDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Entities/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Entities/Emprestimo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Entities/Funcionario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Entities/Livro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/com/ifpb/biblioteca/model/Entities/Reserva.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/ClienteTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/EmprestimoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/FuncionarioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/LivroTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/ReservaTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/test/test/Testes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
     </list>
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,157 +38,70 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-=======
         <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDAO.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
-=======
+            <state relative-caret-position="330">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ClienteDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-=======
         <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-              <folding>
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-              </folding>
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+            <state relative-caret-position="126">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/UsuarioPendenteException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/LivroIndisponivelException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="72" selection-start-line="2" selection-start-column="41" selection-end-line="3" selection-end-column="72" />
-=======
         <entry file="file://$PROJECT_DIR$/src/test/java/test/LivroTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+            <state relative-caret-position="15">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Entities/Livro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
-=======
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ReservaDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ReservaTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/Testes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/UsuarioPendenteException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/LivroInvalidoException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Enum/LivroEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Entities/Livro.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ClienteDAO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java" />
-=======
-        <option value="$PROJECT_DIR$/src/test/java/test/LivroTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ClienteTest.java" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+        <option value="$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -190,133 +117,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="Entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Biblioteca" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="testesdeintegacao" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-=======
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551037534671" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551107767352" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551022137891" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -346,24 +157,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
-      <module name="test" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ClienteTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.Testes" />
-    </list>
-=======
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Testes" />
@@ -375,100 +168,39 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="982e84ca-3e9a-4c08-bba5-86b2dea6dcc2" name="Default Changelist" comment="" />
-      <created>1551021602256</created>
+      <changelist id="c00e8e58-6a4e-4543-979c-f6eaee6fbce9" name="Default Changelist" comment="" />
+      <created>1551107552078</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
-      <updated>1549299190604</updated>
-      <workItem from="1549299192864" duration="3152000" />
-      <workItem from="1551021582709" duration="533000" />
-      <workItem from="1551025973630" duration="456000" />
-      <workItem from="1551027916583" duration="7801000" />
-=======
-      <updated>1551021602256</updated>
-      <workItem from="1551021612274" duration="516000" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+      <updated>1551107552078</updated>
+      <workItem from="1551107554246" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Testes - 2019.02.24 at 12h 22m 44s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 12h 24m 52s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 12h 26m 31s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 12h 27m 33s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 12h 28m 12s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 12h 26m 43s.xml">
-      <configuration name="Testes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Testes - 2019.02.24 at 13h 36m 18s.xml">
+    <history-entry file="Testes - 2019.02.25 at 12h 15m 54s.xml">
       <configuration name="Testes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="11942000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-=======
-    <option name="totallyTimeSpent" value="516000" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+    <option name="totallyTimeSpent" value="226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="740" extended-state="6" />
+    <frame x="0" y="-1" width="1366" height="728" extended-state="6" />
     <layout>
-<<<<<<< HEAD
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-=======
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24621212" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.49924242" visible="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3294702" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007576" side_tool="true" weight="0.3294702" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294702" />
@@ -482,231 +214,72 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Database" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Maven" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/LivroTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="62" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Entities/Reserva.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ReservaDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/LivroIndisponivelException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="72" selection-start-line="2" selection-start-column="41" selection-end-line="3" selection-end-column="72" />
-=======
-    <entry file="file://$PROJECT_DIR$/Biblioteca-Testes.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/Testes.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="145">
-          <caret line="40" column="46" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/UsuarioPendenteException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/exceptions/LivroInvalidoException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="77" selection-start-line="3" selection-start-column="77" selection-end-line="3" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Enum/LivroEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Entities/Livro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/ClienteTestI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/EmprestimoDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="121" selection-start-line="13" selection-start-column="121" selection-end-line="13" selection-end-column="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/ClienteDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/EmprestimoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/testesdeintegacao/EmprestimoTestI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="135">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding>
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/FuncionarioTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/LivroTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="15">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ClienteTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Entities/Livro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
->>>>>>> f41e9a87c06eb40dcc0b03d18cf43228ef8a691a
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifpb/biblioteca/model/Dao/LivroDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ReservaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
