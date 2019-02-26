@@ -39,4 +39,9 @@ public class ClienteTestI {
         Assert.assertTrue(clienteDao.buscarPendencias("mailsuu@gmail.com", emprestimoDao).isEmpty());
         Assert.assertFalse(clienteDao.excluir("mailsuu@gmail.com"));
     }
+
+    @Test
+    public void cadastrarClienteExistente() throws DadosInvalidosException {
+        Assert.assertFalse(clienteDao.cadastrar("333.333.333-03","Mailson",LocalDate.now(),"mailsuu@gmail.com","456123"));
+    }
 }
