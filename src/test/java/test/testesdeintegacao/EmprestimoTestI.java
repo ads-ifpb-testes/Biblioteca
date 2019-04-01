@@ -25,13 +25,15 @@ import java.util.Map;
 
 public class EmprestimoTestI {
 
-    @Mock
     private ClienteDAO clienteDao;
+<<<<<<< HEAD
+=======
     @Mock
     private LivroDAO livroDAO;
     @Mock
     private ReservaDAO reservaDAO;
 
+>>>>>>> bc765098861e783e0f175e5c741c9164a4041965
     private EmprestimoDAO emprestimoDAO = new EmprestimoDaoImpl();
     private String email = "tonyy@gmail.com";
     private Cliente cliente =  new Cliente("222.222.222-02", "Antonio",
@@ -44,7 +46,7 @@ public class EmprestimoTestI {
 
     @Before
     public void iniciarTestes() throws LivroInvalidoException, LivroIndisponivelException {
-        MockitoAnnotations.initMocks(this);
+        clienteDao = new ClienteDaoImpl();
         emprestimoDAO.emprestar(livro2,email,clienteDao);
 
 
@@ -52,7 +54,6 @@ public class EmprestimoTestI {
 
     @Test
     public void emprestimoLivroConsulta(){
-        Mockito.when(clienteDao.buscar(email)).thenReturn(cliente);
         try {
             Assert.assertFalse(emprestimoDAO.emprestar(livro,email,clienteDao));
         } catch (LivroInvalidoException | LivroIndisponivelException e) {

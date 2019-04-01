@@ -49,7 +49,7 @@ public class ReservaTest {
 
     @Test
     public void realizarReservaRepetida(){
-        Assert.assertFalse(reservaDAO.reservarLivro(livro2,cliente2));
+        Assert.assertTrue(reservaDAO.reservarLivro(livro,cliente));
     }
 
 

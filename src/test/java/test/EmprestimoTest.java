@@ -28,8 +28,6 @@ public class EmprestimoTest {
 
     @Mock
     private ClienteDAO clienteDao;
-    @Mock
-    private LivroDAO livroDAO;
     
     
     private List<Livro> livros;

@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.logging.Logger;
 
 import com.ifpb.biblioteca.exceptions.UsuarioPendenteException;
+import com.ifpb.biblioteca.model.Dao.EmprestimoDaoImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,12 +25,11 @@ public class ClienteTestI {
 
     private ClienteDAO clienteDao;
 
-    @Mock
     private EmprestimoDAO emprestimoDao;
 
     @Before
     public void iniciarTestes() throws DadosInvalidosException {
-        MockitoAnnotations.initMocks(this);
+        emprestimoDao = new EmprestimoDaoImpl();
         clienteDao = new ClienteDaoImpl();
         clienteDao.cadastrar("333.333.333-03", "Mailson", LocalDate.now(), "mailsuu@gmail.com", "456123");
     }

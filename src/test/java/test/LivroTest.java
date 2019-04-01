@@ -40,7 +40,7 @@ public class LivroTest {
     @Test
     public void cadastrarCodigoInvalido(){
         try {
-            Assert.assertTrue(livroDAO.cadastrar("Redes",05,"Terra","Gabriel"));
+            Assert.assertTrue(livroDAO.cadastrar("Redes",12,"Terra","Gabriel"));
         } catch (DadosInvalidosException e) {
             // TODO Auto-generated catch block
         }
